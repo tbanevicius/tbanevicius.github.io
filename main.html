@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>УСЛУГИ МИНИ-ЭКСКАВАТОРА</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <style>
+  .img_style {
+      max-width:280px;
+      max-height: auto;
+  }
+  </style>
+</head>
+<body>
+
+<div class="w3-flat-wet-asphalt jumbotron text-center" style="margin-bottom:0">
+  <h1>Добро пожаловать!</h1>
+  <p>Предоставляю услуги МИНИ-ЭКСКАВАТОРА JCB 8016</p> 
+</div>
+
+<div class="container" style="margin-top:30px; margin-bottom: 30px;">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Все виды земляных работ</h2>
+      <ul>   
+        <li>газ</li>
+        <li>вода</li>
+        <li>кабель</li>
+        <li>канализация</li>
+        <li>фундамент</li>
+        <li>котлованы</li>
+        <li>бассейны</li>
+        <li>планировка</li>
+        <li>корчевание пней</li>
+      </ul>
+      <br/>
+      <h2>Характеристики</h2>
+      <ul>
+        <li>Глубина копания 240см</li>
+        <li>Ковшы 20,30,40,100см  </li>
+      </ul>
+      <h2>контакты</h2>
+      <ul>
+        <li>Тел. 8(029) 8322402 Цена договорная</li>        
+      </ul>
+
+
+
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>фотографии</h2>
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="img/kraniukas.jpg" style="width:100%">
+      <img class="mySlides" src="img/2.jpg" style="width:100%">
+      <img class="mySlides" src="img/3.jpg" style="width:100%">
+      <img class="mySlides" src="img/4.jpg" style="width:100%">
+      <img class="mySlides" src="img/5.jpg" style="width:100%">
+      <img class="mySlides" src="img/6.jpg" style="width:100%">
+      <img class="mySlides" src="img/7.jpg" style="width:100%">
+      <img class="mySlides" src="img/8.jpg" style="width:100%">
+      <img class="mySlides" src="img/9.jpg" style="width:100%">
+      <img class="mySlides" src="img/10.jpg" style="width:100%">
+      <img class="mySlides" src="img/11.jpg" style="width:100%">
+      <img class="mySlides" src="img/12.jpg" style="width:100%">
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-flat-wet-asphalt jumbotron text-center" style="margin-bottom:0">
+  <p>Тел. 8(029) 8322402</p>
+</div>
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+</script>
+
+</body>
+</html>
+
